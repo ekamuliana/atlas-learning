@@ -6,11 +6,6 @@ import pages.PageObject;
 
 public class CucumberHooks extends PageObject {
 
-  @Before
-  public void beforeTest() {
-    this.driver.manage().window().maximize();
-  }
-
   @After
   public void afterTest() {
     getDriver().quit();

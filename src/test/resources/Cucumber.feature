@@ -1,6 +1,4 @@
-Feature: Dosen Feature
+Feature: Atlas Feature
 
-  Scenario: user can see list of dafta dosen
-    Given user open gosoft page
-    When user click daftar dosen menu
-    Then user see data dosen
+  Scenario: user want to open atlas page
+    Given user open atlas page
