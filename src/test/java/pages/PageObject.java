@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class PageObject {
 
-  public WebDriver driver = new ChromeDriver();
+  public static WebDriver driver = new ChromeDriver();
 
   public WebDriver getDriver() {
     return this.driver;
